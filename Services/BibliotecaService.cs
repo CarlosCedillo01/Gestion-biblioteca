@@ -33,7 +33,7 @@ public sealed class BibliotecaService
         int tipo = InputHelper.LeerEntero("Elige el tipo: ", 1, 2);
         int id = GenerarId();
         string titulo = InputHelper.LeerTexto("Titulo: ");
-        int anio = InputHelper.LeerEntero("Anio de publicacion: ", 1400, DateTime.Now.Year + 1);
+        int anio = InputHelper.LeerEntero("Año de publicacion: ", 1400, DateTime.Now.Year + 1);
 
         if (tipo == (int)TipoRecurso.Libro)
         {
